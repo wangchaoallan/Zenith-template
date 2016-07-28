@@ -6,7 +6,6 @@ body{
 
 .wrapper{
 	width: 1000px;
-	height: 2000px;
 	margin: auto;
 	position: relative;
 }
@@ -95,7 +94,7 @@ body{
 	font-family: Raleway, sans-serif;
 }
 
-.menu a:hover{
+.menu a:hover {
 	background-color: #150a05;
 }
 
@@ -166,4 +165,45 @@ text-decoration: underline;
     height: 303px;
     margin-left: 37px;
     margin-top: 40px;
+}
+
+.footer{
+	width: 1000px;
+	height: 87px;
+
+	background-color: #1c0f08;
+}
+
+.footerMenu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.footerMenu li{
+	display: inline;
+
+
+}
+
+.footerMenu a{
+	display: inline-block;
+	height: 87px;
+	width: 177px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	margin-left: -1px;
+	text-align: center;
+	line-height: 86px;
+	border-right: 1px solid #322219;
+	color: #fff;
+	font-weight: 800;
+	font-size: 19px;
+	font-family: Raleway, sans-serif;
+}
+
+.footerMenu a:hover {
+	background-color: #150a05;
 }
