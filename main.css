@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#675a53;
+}
+
+.wrapper{
+	width: 1000px;
+	height: 2000px;
+	margin: auto;
+	border: 1px solid blue;
+	position: relative;
+}
+
+.header{
+	height: 130px;
+	width: 100%;
+	background-color: #1c0f08;
+
+}
+
+.logo{
+	width: 28%;
+	height: 130px;
+
+	display: inline-block;
+	position: absolute;
+}
+
+.logo img{
+	position: relative;
+	top: 24px;
+	left: 36px;
+}
+
+.logo a{
+	color: white;
+	text-decoration: none;
+	font-size: 26px;
+	position: relative;
+	left: 46px;
+	top: -8px;
+}
+
+.logo a:hover{
+
+	text-decoration: underline;
+}
+
+
+.logo p{
+	color: #614d41;
+	font-size: 18px;
+	padding: 3px 0 0;
+	position: relative;
+	top: 24px;
+	left: 35px;
+}
+
+
+.menu{
+	width: 72%;
+	height: 130px;
+	display: inline-block;
+	position: absolute;
+	left: 281px;
+}
+
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.menu li{
+	display: inline;
+
+
+}
+
+.menu a{
+	display: inline-block;
+	height: 100px;
+	width: 177px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	margin-left: -1px;
+	text-align: center;
+	line-height: 86px;
+	border-left: 1px solid #322219;
+	color: #fff;
+	font-weight: 800;
+	font-size: 19px;
+	font-family: Raleway, sans-serif;
+}
+
+.menu a:hover{
+	background-color: #150a05;
+}
