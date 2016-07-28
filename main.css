@@ -1,14 +1,13 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color:#675a53;
+	background-color:#322219;
 }
 
 .wrapper{
 	width: 1000px;
 	height: 2000px;
 	margin: auto;
-	border: 1px solid blue;
 	position: relative;
 }
 
@@ -98,4 +97,73 @@ body{
 
 .menu a:hover{
 	background-color: #150a05;
+}
+
+.slider{
+	width: 1000px;
+	background-color: #fff;
+	height: 380px;
+	position: relative;
+}
+.image{
+	display: inline-block;
+}
+.information{
+	height: 380px;
+	width: 382px;
+	display: inline-block;
+	position: absolute;
+}
+
+abbr{
+	cursor: help;
+	 color: #ccc;
+    font: normal bold 10px/21px 'Raleway',sans-serif;
+    padding-top: 11px;
+    text-transform: uppercase;
+}
+
+.infoWrapper{
+	position: relative;
+    height: 339px;
+    width: 300px;
+    margin: auto;
+    top: 28px;
+}
+
+.infoWrapper a:nth-child(3) {
+
+	text-decoration: none;
+	color:#000;
+	font: normal normal 21px/25px 'Raleway',sans-serif;
+
+}
+
+.infoWrapper a:hover {
+
+text-decoration: underline;
+}
+
+.readMore {
+
+	border-bottom: 1px dotted #ccc;
+    font: normal bold 10px/15px 'Raleway',Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    color:#d55c17;
+
+}
+
+.content{
+	width: 1000px;
+	height:400px;
+
+	background-color:#f8f8f8;
+}
+
+.frame{
+	display: inline-block;
+    width: 200px;
+    height: 303px;
+    margin-left: 37px;
+    margin-top: 40px;
 }
